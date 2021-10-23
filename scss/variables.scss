@@ -1,0 +1,75 @@
+$font-family: 'Source Sans Pro';
+
+// Colors
+$primary: #b6010e;
+$primary-bg: rgb(83, 138, 255, 0.88);
+$primary-light: #d40615;
+$primary-extra-light: #ffebec;
+$primary-dark: #92000a;
+
+$grey: #EEE;
+$grey-light: #f5f5f5;
+$grey-extra-light: #f5f5f5;
+$grey-dark: #DDD;
+$grey-extra-dark: #999;
+
+$yellow: #ffc107;
+$yellow-light: #F2C94C;
+$yellow-extra-light: #fff5d8;
+$yellow-dark: #dbaa18;
+$yellow-extra-dark: #a27a01;
+
+$green: #4caf50;
+$green-light: #F2C94C;
+$green-extra-light: #ddfbde;
+$green-dark: #2c8830;
+$green-extra-dark: #2c8830;
+
+$red: #e72b2b;
+$red-light: #ff5151;
+$red-extra-light: #ffe7e7;
+$red-dark: #bd1616;
+$red-extra-dark: #9b0c0c;
+
+$blue: #2196f3;
+$blue-light: #2196f3;
+$blue-extra-light: #e4f3ff;
+$blue-dark: #0068bb;
+$blue-extra-dark: #0068bb;
+
+$color: #F5F7FA;
+
+$bcolor: #DDD;
+
+// Borders
+$br: 4px;
+$b1: 1px $bcolor solid;
+
+
+
+
+// Resets 
+
+body {
+  background-color: #FFF;
+}
+
+html, body {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input, select, textarea, button {
+  font-size: inherit;
+}
+input {
+  border-radius: 0;
+}
+
+input[type="search"] {
+  -webkit-appearance: none;
+}
